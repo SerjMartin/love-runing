@@ -26,16 +26,18 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 250%;
+    font-size: 280%;
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
+    float: right;
 }
 
 #menu, #logo {
     line-height: 75px;
+    display: inline-block;
 }
 
 #menu li {
@@ -57,5 +59,33 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 
 }
+
+/* herro-image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../css/images/hero-image.webp') no-repeat center center;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
+
 
 
