@@ -18,7 +18,7 @@ body {
 h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 3px;
     color: #252525;
     
   
@@ -117,11 +117,12 @@ h1, h2 {
 
 #club-ethos {
     height: 600px;
+    width: 100%;
 }
 
 #left-about {
     padding-top: 20px;
-    width: 33%;
+    width: 35%;
     float: left;
 }
 
@@ -132,7 +133,7 @@ h1, h2 {
 }
 
 #center-about {
-    width: 33%;
+    width: 35%;
     margin: 0 auto;
 }
 
@@ -263,7 +264,7 @@ hr {
      margin: 150px 10% 0 0;
      color: #fff;
      background-color: rgba(60, 60, 60, 0.6);
-     max-width: 400px;
+     max-width: 430px;
      position: absolute;
      left: 10%;
      padding: 30px;
